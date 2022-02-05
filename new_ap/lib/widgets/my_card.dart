@@ -13,7 +13,12 @@ class MyCard extends StatelessWidget {
       child: InkWell(
         onTap: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => NewsPage()));
+              context,
+              MaterialPageRoute(
+                  builder: (context) => NewsPage(
+                        url: imgUrl,
+                        title: "News $newsTitle",
+                      )));
         },
         child: Card(
           color: Colors.blue,
