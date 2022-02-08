@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_ap/screens/home/feedPage/subPage/news_page.dart';
 import 'package:new_ap/widgets/my_card.dart';
 
 class FeedPage extends StatelessWidget {
